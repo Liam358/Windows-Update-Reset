@@ -1,4 +1,4 @@
-# Windows-Update-Reset-WUR-
+# Windows-Update-Reset-
 You can find my newer versions in my releases tab.
 You can find my older versions in the home page of this repository.
 Please. Run this program as an administrator!
