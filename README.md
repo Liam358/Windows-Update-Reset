@@ -3,7 +3,7 @@
                                     How to use this program:
                                This is the main menu of the program.
        ______________________________________________________________________________________
-                                 Welcome to Windows Update Reset!          Version 3.0.9         
+                                 Welcome to Windows Update Reset!          Version 3.1.0         
                                                                                                    
                                           Instructions:             
                         Enter a menu option in the Keyboard [1,2,3,4,5,6,7,8]                         
@@ -101,7 +101,7 @@
 
                               You can fix this by following these steps:
 
-               1. Right click on the batch file that's named "Windows Update Reset Version 3.0.9".
+               1. Right click on the batch file that's named "Windows Update Reset Version 3.1.0.cmd".
                2. Select "Run as administrator".
                3. Select "Yes" on the next dialog.
 
