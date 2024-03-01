@@ -1,4 +1,11 @@
 
+Update for those that are waiting for version 3.1.4:
+3.1.4 is in a rush. I'm trying to release it as soon as possible
+but I'm still finishing it. If I release it now, it would be as
+buggy as windows vista used to be. You can continue using
+Version 3.1.3 for now.
+
+
                            Thank's for choosing windows update reset!
 
                                     How to use this program
