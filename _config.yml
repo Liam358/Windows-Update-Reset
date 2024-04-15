@@ -1,3 +1,49 @@
-theme: jekyll-theme-minimal
-title: Windows Update Reset - Under development
-description: This page is under development.
+title: Windows Update Reset
+description: This is a test page porting the "_config.yml" file from choosealicense.
+relative_permalinks: false
+markdown: kramdown
+url: "https://liam358.github.io/Windows-Update-Reset"
+
+collections:
+  licenses:
+    output: true
+    permalink: /licenses/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "licenses"
+    values:
+      hidden: true
+      layout: license
+
+exclude:
+  - app.coffee
+  - CNAME
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - Rakefile
+  - README.md
+  - script
+  - vendor/bundle
+  - spec
+  - assets/vendor/selectivizr/tests
+  - assets/vendor/clipboard/test
+  - assets/vendor/*/README.*
+  - license-list-XML
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-github-metadata # For 'Improve this page' links
+
+sass:
+    style: :compressed
+
+twitter:
+  username: "@github"
