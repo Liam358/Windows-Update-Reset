@@ -1,0 +1,65 @@
+panic(cpu 2 caller 0xffffff8000a19298): System KC UUID CD01AC9A-DCF1-A8AD-7A00-45B5E433EC86 linked against EA8C3CEA-8102-1504-7E0F-00699040F88C, but EDD8B99A-E218-3099-8606-9B4558611AF5 is loaded @OSKext.cpp:14307
+Panicked task 0xffffff9abd3f7d38: 4 threads: pid 159: kernelmanagerd
+Backtrace (CPU 2), panicked thread: 0xffffff95ee3e00c8, Frame : Return Address
+0xffffffff0048b260 : 0xffffff80003572e1 
+0xffffffff0048b2b0 : 0xffffff80004d3d06 
+0xffffffff0048b2f0 : 0xffffff80004c2f0c 
+0xffffffff0048b3b0 : 0xffffff80002eb971 
+0xffffffff0048b3d0 : 0xffffff80003576b7 
+0xffffffff0048b4d0 : 0xffffff8000356d29 
+0xffffffff0048b640 : 0xffffff8000b8c1cd 
+0xffffffff0048b730 : 0xffffff8000a19298 
+0xffffffff0048b850 : 0xffffff8000a1788c 
+0xffffffff0048b870 : 0xffffff8000a17384 
+0xffffffff0048b900 : 0xffffff8000a26498 
+0xffffffff0048bb30 : 0xffffff8000a25922 
+0xffffffff0048bb90 : 0xffffff8000a23a6a 
+0xffffffff0048bc10 : 0xffffff8000a37ba7 
+0xffffffff0048bc90 : 0xffffff80003de381 
+0xffffffff0048bcf0 : 0xffffff8000332bb8 
+0xffffffff0048bd90 : 0xffffff8000345ea7 
+0xffffffff0048bde0 : 0xffffff800034668a 
+0xffffffff0048bee0 : 0xffffff80004a6f94 
+0xffffffff0048bfa0 : 0xffffff80002ebdd6 
+
+Process name corresponding to current thread (0xffffff95ee3e00c8): kernelmanagerd
+Boot args: debug=0x100 -x
+
+Mac OS version:
+25D5112c
+
+Kernel version:
+Darwin Kernel Version 25.3.0: Thu Jan 22 21:53:32 PST 2026; root:xnu-12377.80.0.501.1~2/RELEASE_X86_64
+Kernel UUID: 67E53090-E5B9-3E47-9E10-B5A18039FAA5
+roots installed: 0
+KernelCache slide: 0x0000000000000000
+KernelCache base:  0xffffff8000200000
+Kernel slide:      0x00000000000e8000
+Kernel text base:  0xffffff80002e8000
+__HIB  text base: 0xffffff8000100000
+System model name: iMac18,2 (Mac-77F17D7DA9285301)
+System shutdown begun: NO
+Panic diags file available: NO (0xe00002bc)
+Hibernation exit count: 0
+
+System uptime in nanoseconds: 36036638055
+Last Sleep:           absolute           base_tsc          base_nano
+  Uptime  : 0x0000000863f37a1a
+  Sleep   : 0x0000000000000000 0x0000000000000000 0x0000000000000000
+  Wake    : 0x0000000000000000 0x0000000fba031a75 0x0000000000000000
+Compressor Info: 0% of compressed pages limit (OK) and 0% of segments limit (OK) with 0 swapfiles and OK swap space
+Zone info:
+  Zone map: 0xffffff81242a6000 - 0xffffffa1242a6000
+  . VM    : 0xffffff81242a6000 - 0xffffff85f0f72000
+  . RO    : 0xffffff85f0f72000 - 0xffffff878a916000
+  . GEN0  : 0xffffff878a916000 - 0xffffff8c575e2000
+  . GEN1  : 0xffffff8c575e2000 - 0xffffff91242ae000
+  . GEN2  : 0xffffff91242ae000 - 0xffffff95f0f7a000
+  . GEN3  : 0xffffff95f0f7a000 - 0xffffff9abdc46000
+  . DATA  : 0xffffff9abdc46000 - 0xffffffa1242a6000
+  Metadata: 0xffffffd54598e000 - 0xffffffd56598e000
+  Bitmaps : 0xffffffd56598e000 - 0xffffffd56718e000
+  Extra   : 0 - 0
+
+
+
